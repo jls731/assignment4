@@ -1,0 +1,26 @@
+1) and: Not a legal name, "and" is a reserved word
+_and: legal name
+var: legal name
+var1: legal name
+1var: Not a legal name, cannot start with a number
+my-name: Not a legal name, '-' not allowed in a variable name
+your_name: legal name
+COLOR: legal name
+
+2) a: boolean
+b: float
+c: string
+d: int
+e: string
+f: complex
+g: string
+h: boolean
+i = string
+
+3)
+
+b and c: False
+b or c: True
+not a and b: True
+(a and b) or not c: True
+not b and not (a or c): False
